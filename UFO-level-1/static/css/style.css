@@ -4,6 +4,25 @@
 }
 
 html,
+
+#header-image {
+top: 10px; 
+position: relative; 
+width: 100%; 
+margin: none; 
+padding: none; 
+} 
+
+#image-text{ 
+position: absolute; 
+top: 60%; 
+left: 60%; 
+font-family: 'Roboto'; 
+color: rgb(252, 246, 246); 
+transform: translate(-30%, -30%); 
+text-align: center; 
+
+
 body {
   height: 100%;
   padding: 0;
