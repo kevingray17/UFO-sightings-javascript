@@ -73,6 +73,16 @@ select {
   outline: none;
 }
 
+.header-image-menu {
+  background: url('https://assets.answersingenesis.org/img/cms/content/contentnode/header_image/1606_DoIBelieveInUFOs_WebBanner_945x300.jpg') no-repeat;
+  background-size:100%;
+  min-height:300px;
+  text-align:center;
+  color:#fff;
+  padding-top:100px;
+}
+
+
 #table-area th {
   text-align: center;
 }

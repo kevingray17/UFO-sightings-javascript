@@ -1,6 +1,3 @@
-// from data.js
-var tableData = data;
-
 // create source data variable and variables for dropdowns
 var tableData = data;
 var filteredData = tableData
