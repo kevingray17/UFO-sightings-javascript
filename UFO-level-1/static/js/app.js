@@ -18,10 +18,12 @@ var uniqueShapes = shapes.filter(makeUnique)
 
 
 // Add elements to dropdowns
-var citiyDrop = d3.select(".cityDropdown");
+// var citiyDrop = d3.select(".cityDropdown");
+var cityDrop = d3.select(".cityDropdown");
 var cityDropTop = d3.select(".cityDropTop");
 uniqueCities.forEach(city => {
-    citiyDrop.append('a').text(city).attr('class',"dropdown-item cityItem")
+    // citiyDrop.append('a').text(city).attr('class',"dropdown-item cityItem")
+    cityDrop.append('a').text(city).attr('class',"dropdown-item cityItem")
 });
 var selectedCity = null;
 var cityItems = d3.selectAll('.cityItem')
